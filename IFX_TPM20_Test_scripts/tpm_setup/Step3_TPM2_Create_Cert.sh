@@ -1,0 +1,1 @@
+openssl req -x509 -sha256 -key "0x81020001;leaf123" -engine tpm20e_v2 -keyform engine -in leaf.csr -out leafselfsign.crt

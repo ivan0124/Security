@@ -1,0 +1,1 @@
+openssl req -new -keyform engine -engine tpm20e_v2 -subj /CN=mytest/O=Infineon/C=SG -key "0x81020001;leaf123" -out leaf.csr
